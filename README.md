@@ -147,7 +147,7 @@ They are not required for implementing or using the specifications.
 
 - [RW Reader](https://chromewebstore.google.com/detail/rw-reader/hlckcdbgknflkkciojgdbhomdnegimbm) (Chrome extension) — adds support for new data formats and visible-connection rendering inside the browser.
 
-- [Static Web Publisher](https://wordpress.org/plugins/static-web-publisher/) (WordPress plugin) — automatically embeds an Embedded HDOC versions on pages and posts. Can serve Reader's Web documents in a special Reader UI. Supports CDOCs and CONDOCs. 
+- [Reader's Web Publisher](https://wordpress.org/plugins/static-web-publisher/) (WordPress plugin) — automatically embeds an Embedded HDOC versions on pages and posts. Can serve Reader's Web documents in a special Reader UI. Supports CDOCs and CONDOCs. 
 
 - [LZ Desktop](https://readersweb.org/lzdesktop/) (desktop viewer/editor) — standalone app for browsing Reader's Web content and creating new documents with visible connections.
 
