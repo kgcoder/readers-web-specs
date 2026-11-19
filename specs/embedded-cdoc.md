@@ -41,7 +41,8 @@ Example:
 ```html
 <script type="application/json" id="cdoc-source">
 {
-  "source": "<cdoc>\n\n<metadata>\n<title>My Collage</title>\n</metadata>\n\n<svg width=\"800\" height=\"600\" ...>...</svg>\n\n</cdoc>"
+  "source": "<cdoc>\n\n<metadata>\n<title>My Collage</title>\n</metadata>\n\n<svg width=\"800\" height=\"600\" ...>...</svg>\n\n</cdoc>",
+  "forced": true
 }
 </script>
 ```
@@ -49,6 +50,7 @@ Example:
 #### Fields:
 
 * **source** (required): The complete source code of a standalone CDOC document, serialized as a JSON string.
+* **forced** (optional): Boolean. When `true`, CDOC-aware clients should always render the page as a CDOC, including when it is opened directly as the main document. When absent or `false`, the client shows the original HTML page to direct visitors and uses the embedded CDOC only when the page is loaded as a connected document.
 
 ---
 

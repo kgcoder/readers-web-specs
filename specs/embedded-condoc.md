@@ -41,7 +41,8 @@ Example:
 ```html
 <script type="application/json" id="condoc-source">
 {
-  "source": "<condoc>\n\n<title>My Connections</title>\n\n<main>https://example.com/some-article</main>\n\n</condoc>"
+  "source": "<condoc>\n\n<title>My Connections</title>\n\n<main>https://example.com/some-article</main>\n\n</condoc>",
+  "forced": true
 }
 </script>
 ```
@@ -49,6 +50,7 @@ Example:
 #### Fields:
 
 * **source** (required): The complete source code of a standalone CONDOC document, serialized as a JSON string.
+* **forced** (optional): Boolean. When `true`, CONDOC-aware clients should always render the page as a CONDOC when it is opened directly. When absent or `false`, the client shows the original HTML page and renders the embedded CONDOC only on an explicit user request. A CONDOC (standalone or embedded) is never loaded as a connected document, so the flag has no other effect.
 
 ---
 
